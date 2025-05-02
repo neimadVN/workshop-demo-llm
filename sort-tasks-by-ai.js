@@ -17,7 +17,7 @@ import { OpenAI } from "openai";
  */
 export async function sortTaskByAI(tasks) {
   // Define the prompt for the AI
-  const SORT_PROMPT = "Sort these tasks in an order that a 5-year-old child usually does. A 5-year-old usually follows a natural daily routine with simple tasks first. Return ONLY a JSON array of task IDs in the sorted order.";
+  const SORT_PROMPT = "Sort these tasks in an order that a 22-year-old-person usually does. A 22-year-old-person usually follows a natural daily routine with simple tasks first. Return ONLY a JSON array of task IDs in the sorted order.";
   
   try {
     // Initialize OpenAI client
