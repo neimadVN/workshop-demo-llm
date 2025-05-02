@@ -1,0 +1,23 @@
+{
+  "name": "sort-tasks-by-ai",
+  "version": "1.0.0",
+  "description": "Sort tasks using OpenAI LLM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "tasks",
+    "sort",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0"
+  }
+} 
