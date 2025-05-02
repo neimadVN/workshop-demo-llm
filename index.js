@@ -65,7 +65,7 @@ async function runTest() {
   try {
     const sortedTasks = await sortTaskByAI(sampleTasks);
     
-    console.log('\nSorted tasks (by how a 5-year-old would approach them):');
+    console.log('\nSorted tasks (by how a 21-year-old person would approach them):');
     console.table(sortedTasks);
     
     // Display the sequence in a more readable format

@@ -1,6 +1,6 @@
 # Sort Tasks by AI
 
-This project provides a function to sort tasks using OpenAI's LLM based on how a 5-year-old child would typically approach them.
+This project provides a function to sort tasks using OpenAI's LLM based on how a 21-year-old person would typically approach them.
 
 ## Files
 - `sort-tasks-by-ai.js` - The main function that interfaces with OpenAI
@@ -45,6 +45,6 @@ console.log(sortedTasks);
 
 The `sortTaskByAI` function:
 1. Takes an array of task objects
-2. Sends them to OpenAI with a prompt to sort them as a 5-year-old would
+2. Sends them to OpenAI with a prompt to sort them as a 21-year-old person would
 3. Processes the response and returns a sorted array
 4. Handles errors gracefully, returning the original array if something goes wrong 

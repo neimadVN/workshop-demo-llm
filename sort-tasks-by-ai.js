@@ -11,13 +11,13 @@ import { OpenAI } from "openai";
  */
 
 /**
- * Sorts tasks in an order that a 5-year-old child would typically follow
+ * Sorts tasks in an order that a 21-year-old person would typically follow
  * @param {Task[]} tasks Array of tasks to be sorted
  * @returns {Promise<Task[]>} A new array of sorted tasks
  */
 export async function sortTaskByAI(tasks) {
   // Define the prompt for the AI
-  const SORT_PROMPT = "Sort these tasks in an order that a 22-year-old-person usually does. A 22-year-old-person usually follows a natural daily routine with simple tasks first. Return ONLY a JSON array of task IDs in the sorted order.";
+  const SORT_PROMPT = "Sort these tasks in an order that a 21-year-old person usually does. A 21-year-old person usually follows a natural daily routine with simple tasks first. Return ONLY a JSON array of task IDs in the sorted order.";
   
   try {
     // Initialize OpenAI client
